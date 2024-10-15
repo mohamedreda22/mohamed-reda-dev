@@ -19,7 +19,9 @@
         <div class="nav-links">
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
             <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
             <a href="#contact">Contact</a>
         </div>
     </nav>
@@ -52,6 +54,22 @@
   </div>
 </section>
 
+<!-- Education Section -->
+<div class="education-section" id="education">
+  <h1>Education</h1>
+  <div class="education-item">
+    <img src="hu.png" alt="Helwan University Logo" class="university-logo" />
+    <div class="education-details">
+      <h3>{{ education[0].institution }}</h3>
+      <p class="degree">{{ education[0].degree }}</p>
+      <p class="location">{{ education[0].location }}</p>
+      <p class="date">{{ education[0].date }}</p>
+      <p class="grade">Grade: {{ education[0].grade }}</p>
+      <p class="major">Major: {{ education[0].major }}</p>
+      <p class="minor">Minor: {{ education[0].minor }}</p>
+    </div>
+  </div>
+</div>
 
 <!-- Projects Section -->
 <section class="projects" id="projects">
@@ -68,6 +86,39 @@
     <a [href]="project.link" target="_blank">View Project</a></div></div></div>
 
 </section>
+<section class="experience" id="experience">
+  <h1>My Experiences</h1>
+  <div class="experience-list">
+    <div class="experience-item" *ngFor="let experience of experiences" [@fadeIn]>
+      <h2>{{ experience.title }}</h2>
+      <h3>{{ experience.company }} - {{ experience.type }}</h3>
+      <p><strong>Duration:</strong> {{ experience.duration }}</p>
+      <p>{{ experience.description }}</p>
+      <ul *ngIf="experience.skills && experience.skills.length > 0">
+        <strong>Skills:</strong>
+        <li *ngFor="let skill of experience.skills">{{ skill }}</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Certifications Section -->
+
+<section class="certifications-section">
+  <h1>Certifications</h1>
+  <div *ngFor="let cert of certifications" class="certification-item">
+    <img [src]="cert.logo" alt="{{ cert.issuer }} Logo" class="certification-logo" />
+    <div class="certification-details">
+      <h3 class="certification-title">{{ cert.title }}</h3>
+      <p class="certification-issuer">{{ cert.issuer }}</p>
+      <p class="certification-issued-date">Issued: {{ cert.issuedDate }}</p>
+      <p *ngIf="cert.skills" class="certification-skills">Skills: {{ cert.skills.join(', ') }}</p>
+    </div>
+  </div>
+</section>
+
 
 <!-- Contact Section -->
 <section class="contact" id="contact">
@@ -90,6 +141,10 @@
     <a href="https://www.linkedin.com/in/swe-mohamed-reda/" target="_blank" aria-label="LinkedIn Profile">
       <img src="linkedin.png" class="icon"/>
     </a>
+    <a href="mailto:mohamedreda.dev@gmail.com?subject=Contact%20from%20Website&body=Hello%20Mohamed%2C%0D%0A">
+      <img src="gmail.jpg" class="icon" alt="Email Icon"/>
+    </a>
+    
   </div>
   <p>&copy; 2025 Mohamed Reda. All rights reserved.</p>
 </footer>

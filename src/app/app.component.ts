@@ -248,7 +248,232 @@ Check out the <a href="https://mohamedreda22.github.io/ODC-Final-project-Demo/" 
   
   
 ];
+experiences = [
+  {
+      title: "Personal Goal Pursuit",
+      company: "Career Break",
+      type: "Career Break",
+      duration: "Jul 2024 - Present",
+      description: "I am currently focused on personal development to enhance my skills, acquire new certifications, and prepare for the next chapter of my life after graduation. My upcoming plan involves joining military service in April 2025 for one year, followed by deepening my involvement in the tech industry. Your support and good wishes are greatly appreciated! ❤️",
+  },
+  {
+      title: "Mean Stack Developer Intern",
+      company: "Orange Digital Center Egypt",
+      type: "Internship",
+      duration: "Sep 2024",
+      description: "This training program focuses on MEAN stack development and is a collaboration between Orange Digital Center and AMIT learning.",
+      skills: ["MongoDB", "AngularJS", "TypeScript", "Express.js", "Node.js"],
+  },
+  {
+      title: "React Developer Intern",
+      company: "Learn2Earn Education",
+      type: "Internship",
+      duration: "May 2024 - Jul 2024",
+      description: "This is a long-term unpaid project, where I honed my skills in React.js and front-end development.",
+      skills: ["React.js", "Front-End Development"],
+  },
+  {
+      title: "React Developer Intern",
+      company: "SYNC INTERN'S",
+      type: "Internship",
+      duration: "Oct 2023",
+      description: "Embarked on my first React.js internship this year, where I worked on real-world projects to sharpen my skills. Your well-wishes are greatly appreciated! ❤️",
+      skills: ["React.js", "Front-End Development"],
+  },
+  {
+      title: "Web Development and Designing Intern",
+      company: "Code Casa",
+      type: "Internship",
+      duration: "Sep 2023",
+      description: "Worked on various tasks that helped me gain experience, including developing capstone projects like Tic-Tac-Toe and To-Do List.",
+      skills: ["React.js", "Front-End Development", "Web Development"],
+  },
+  {
+      title: "Web Development Intern",
+      company: "CodSoft",
+      type: "Internship",
+      duration: "Aug 2023",
+      description: "Developed and tested innovative software websites using HTML, CSS, JS, and React.js framework. Actively contributed to code reviews.",
+      skills: ["React.js", "Front-End Development", "Web Development"],
+  },
+  {
+      title: "Supervisor",
+      company: "Koshary Ghobashy",
+      type: "Full-time",
+      duration: "Feb 2022 - Oct 2022",
+      description: "Gained valuable knowledge about non-technical issues and life experiences while managing a team and ensuring customer satisfaction.",
+      skills: ["Time Management", "Customer Satisfaction", "Communication Skills"],
+  },
+  {
+      title: "Intern",
+      company: "Banque Misr",
+      type: "Internship",
+      duration: "Jun 2021 - Oct 2021",
+      description: "Learned about ethical client interactions and developed skills in helping clients effectively.",
+      skills: ["Client Relations", "Ethics"],
+  },
+];
+education = [
+  {
+    institution: 'Helwan University, Cairo',
+    degree: "Bachelor's Degree in Information Systems",
+    location: 'Cairo, Egypt',
+    date: 'Oct 2020 - Jul 2024',
+    grade: 'Very Good (GPA: 2.84)',
+    major: 'Information Systems',
+    minor: 'Computer Science',
+    logo: 'hu.png',
+  }
+];
+certifications = [
+  {
+    title: "What Is Generative AI?",
+    issuer: "LinkedIn",
+    issuedDate: "Oct 2024",
+    skills:["Generative AI","Artificial Intelligence (AI)"],
+    logo: "linkedin.png" 
+  },
+  {
+    title: "MongoDB",
+    issuer: "MaharaTech - ITI",
+    issuedDate: "Sep 2024",
+    skills: ["MongoDB", "Databases", "NoSQL"],
+    logo: "maharatech.jpeg" 
+  },
+  {
+    title: "Getting your website online",
+    issuer: "LinkedIn",
+    issuedDate: "Aug 2024",
+    skills: ["Web Hosting"],
+    logo: "linkedin.png" 
+  },
+  {
+    title: "Introduction to Networking and Storage",
+    issuer: "IBM",
+    issuedDate: "Mar 2024",
+    logo: "ibm.webp"
+  },
+  {
+    title: "Build a JavaScript AI App with React and the OpenAI API",
+    issuer: "LinkedIn",
+    issuedDate: "Dec 2023",
+    skills: ["Artificial Intelligence (AI)", "Generative AI", "React.js", "Front-End Development", "JavaScript"],
+    logo: "linkedin.png" 
+  },
+  {
+    title: "Bring Your Story to Life – Video Post-Production",
+    issuer: "Meta",
+    issuedDate: "Nov 2023",
+    skills: ["Storytelling", "Adobe Premiere Pro"],
+    logo: "meta.png" 
+  },
+  {
+    title: "Coding Exercises React.js",
+    issuer: "LinkedIn",
+    issuedDate: "Nov 2023",
+    skills: ["React.js"],
+    logo: "linkedin.png" 
+  },
+  {
+    title: "Hands-On Introduction: React",
+    issuer: "LinkedIn",
+    issuedDate: "Nov 2023",
+    skills: ["React.js"],
+    logo: "linkedin.png" 
+  },
+  {
+    title: "Introducing Semantic Kernel: Building AI-Based Apps",
+    issuer: "LinkedIn",
+    issuedDate: "Nov 2023",
+    skills: ["Artificial Intelligence (AI)", "Generative AI", "Software Development", "PROMPT", "Semantic Kernel"],
+    logo: "linkedin.png" 
+  },
+  {
+    title: "Software Design: Modeling with UML",
+    issuer: "LinkedIn",
+    issuedDate: "Nov 2023",
+    skills: ["Software Design", "Unified Modeling Language (UML)"],
+    logo: "linkedin.png"
+  },
+  {
+    title: "Git & GitHub",
+    issuer: "IBM",
+    issuedDate: "Sep 2023",
+    skills: ["Git", "GitHub"],
+    logo: "ibm.webp"
+  },
+  {
+    title: "Learning Redux Toolkit",
+    issuer: "LinkedIn",
+    issuedDate: "Sep 2023",
+    skills: ["Redux.js"],
+    logo: "linkedin.png" 
+  },
+  {
+    title: "Advanced React",
+    issuer: "Meta",
+    issuedDate: "Aug 2023",
+    skills: ["React.js"],
+    logo: "meta.png" 
+  },
+  {
+    title: "React basics",
+    issuer: "Meta",
+    issuedDate: "Jul 2023",
+    skills: ["React.js"],
+    logo: "meta.png" 
+  },
+  {
+    title: "Create a Web Application With React.js",
+    issuer: "OpenClassrooms",
+    issuedDate: "Jun 2023",
+    skills: ["React.js", "Front-End Development"],
+    logo: "OpenClassrooms.jpg"
+  },
+  {
+    title: "Docker",
+    issuer: "LinkedIn",
+    issuedDate: "May 2023",
+    skills: ["Docker"],
+    logo: "linkedin.png" 
+  },
+  {
+    title: "Postman",
+    issuer: "LinkedIn",
+    issuedDate: "May 2023",
+    skills: ["Postman"],
+    logo: "linkedin.png" 
+  },
+  {
+    title: "Data Structures",
+    issuer: "LinkedIn",
+    issuedDate: "Nov 2022",
+    skills: ["Data Structures", "Algorithms"],
+    logo: "linkedin.png" 
+  },
+  {
+    title: "Programming Foundations: Databases",
+    issuer: "LinkedIn",
+    issuedDate: "Nov 2022",
+    skills: ["Databases"],
+    logo: "linkedin.png" 
+  },
+  {
+    title: "Learning Java",
+    issuer: "LinkedIn",
+    issuedDate: "Dec 2021",
+    skills: ["Java"],
+    logo: "linkedin.png"
+  },
 
+  {
+    title: "Programming Foundations: Algorithms",
+    issuer: "LinkedIn",
+    issuedDate: "Jul 2023",
+    skills: ["Algorithms"],
+    logo: "linkedin.png" 
+  }
+];
 
 
   // CV Download method

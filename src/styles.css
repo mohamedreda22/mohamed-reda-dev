@@ -75,6 +75,11 @@ nav a {
   background-color: #0d0d0d;
   text-align: center;
 }
+.skills h1{
+  font-size: 40px;
+  color: #ff0099;
+
+}
 
 .skills-grid {
   display: flex;
@@ -92,12 +97,55 @@ nav a {
   border-radius: 25px;
   font-size: 16px;
 }
+.education-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #202020; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: center;
+}
+.education-section h1{
+  font-size: 40px;
+  color: #ff0099;
+  text-align: center;
+}
+.education-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px; /* Spacing between education items */
+}
+
+.university-logo {
+  width: 80px; /* Set width for logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 15px; /* Space between logo and text */
+}
+
+.education-details {
+  flex: 1; /* Allow the details to take up remaining space */
+}
+
+
+.degree {
+  font-weight: bold; /* Emphasize degree */
+  font-size: 18px; /* Degree size */
+}
+
+.location, .date, .grade, .major, .minor {
+  font-size: 14px; /* Text size for details */
+}
 
 /* Projects Section */
 .projects {
   padding: 80px 20px;
   text-align: center;
   background-color: #151515;
+}
+.projects h1{
+  font-size: 40px;
+  color: #ff0099;
 }
 
 .project-item {
@@ -177,6 +225,91 @@ nav a {
     width: 100%;
     max-width: 100%;
   }
+}
+.experience {
+  padding: 20px;
+  text-align: center;
+}
+.experience h1{
+  font-size: 40px;
+  color: #ff0099;
+  text-align: center;
+}
+
+.experience-list {
+  margin-top: 20px;
+}
+
+.experience-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #202020;
+}
+
+.experience-item h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #ff0099;
+}
+
+.experience-item h3 {
+  margin: 5px 0;
+  font-weight: normal;
+}
+
+.experience-item p {
+  margin: 10px 0;
+}
+
+.experience-item ul {
+  margin-top: 10px;
+  list-style-type: none;
+  padding: 0;
+}
+.certifications-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #202020; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  
+}
+.certifications-section h1 {
+  font-size: 40px;
+  color: #ff0099;
+  text-align: center;
+}
+
+.certification-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px; /* Spacing between certifications */
+}
+
+.certification-logo {
+  width: 50px; /* Set width for logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 15px; /* Space between logo and text */
+}
+
+.certification-details {
+  flex: 1; /* Allow the details to take up remaining space */
+}
+
+
+.certification-title {
+  font-weight: bold; /* Emphasize title */
+  font-size: 18px; /* Title size */
+}
+
+.certification-issuer, .certification-issued-date, .credential-id {
+  font-size: 14px; 
+}
+
+.certification-skills {
+  font-size: 14px; /* Text size for skills */
+  color: #ff0099; /* Lighter gray for skills */
 }
 
 
