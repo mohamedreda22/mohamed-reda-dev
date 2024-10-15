@@ -83,6 +83,9 @@ nav a {
   gap: 15px;
 }
 
+.skills-grid .skill-item{
+  margin-top: 10px;
+}
 .skills-grid span {
   padding: 10px 20px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -96,13 +99,41 @@ nav a {
   text-align: center;
   background-color: #151515;
 }
-
+.projects .projects-container{
+  display: flex;
+}
 .project-item {
   background-color: #202020;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
   transition: transform 0.3s ease;
+  display: flex;
+}
+.project-item a{
+  text-decoration: none;
+  color: rgb(244, 4, 4);
+}
+.project-item img {
+  max-width: 500px;
+  max-height: 400px;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+.project-item h2{
+  font-family: 'Playfair Display', serif;
+  
+}
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.slideshow-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .project-item:hover {
@@ -166,6 +197,7 @@ footer .social-links a:hover {
 footer p {
   font-size: 14px;
 }
+
 footer .social-links .icon{
   height: 30px;
   width: 30px;

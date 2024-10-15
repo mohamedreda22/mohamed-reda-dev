@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Mohamed Reda Portfolio">
     <meta property="og:description" content="Showcasing projects and skills of Mohamed Reda, Software Engineer.">
-    <meta property="og:image" content="gp photo.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="../styles.css">
@@ -40,25 +39,35 @@
 
       </p>
   </section>
-    <!-- Skills Section -->
-    <section class="skills" id="skills">
-      <h1>My Skills</h1>
-      <div class="skills-grid">
-          <span>JavaScript</span>
-          <span>React.js</span>
-          <span>Node.js</span>
-          <span>HTML & CSS</span>
-          <span>Git</span>
+<!-- Skills Section -->
+<section class="skills" id="skills">
+  <h1>My Skills</h1>
+  <div class="skills-grid">
+      <div class="skill-item" *ngFor="let skill of skills">
+          <span>          
+            <i [ngClass]="skill.icon"></i>
+            {{ skill.name }}
+          </span>
       </div>
-  </section>
+  </div>
+</section>
+
 
 <!-- Projects Section -->
 <section class="projects" id="projects">
   <h1 [@slideInLeft]>My Projects</h1>
-  <div class="project-item" *ngFor="let project of projects" [@fadeIn]>
+  <div class="projects-container">
+  <div class="project-item" *ngFor="let project of projects" [@fadeIn] style="scale: 0.65;">
+    <div>    
+     <!-- Slideshow for multiple images -->
+     <div class="slideshow-container">
+     <img [src]="project.currentImage" alt="Project image" class="slideshow-image"/>
+     </div>
     <h2>{{ project.name }}</h2>
-    <p>{{ project.description }}</p>
-    <small>{{ project.date }}</small>
+    <p [innerHTML]="project.description"></p>
+    <p><strong>Date:</strong> {{ project.date }}</p>
+    <a [href]="project.link" target="_blank">View Project</a></div></div>
+
   </div>
 </section>
 
@@ -84,7 +93,7 @@
       <img src="linkedin.png" class="icon"/>
     </a>
   </div>
-  <p>&copy; 2024 Mohamed Reda. All rights reserved.</p>
+  <p>&copy; 2025 Mohamed Reda. All rights reserved.</p>
 </footer>
 
 
