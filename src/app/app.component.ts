@@ -78,16 +78,16 @@ projects = [
     name: 'Bistro Bliss Restaurant', 
     description: `
     Introducing Bistro Bliss, a full-stack web application designed to showcase my skills in both front-end and back-end development.<br>
-    <strong>Key Technologies:</strong>
+    <br><strong>Key Technologies:</strong>
       <ul>
-        Front-End: Angular, HTML, CSS, TypeScript <br>
-        Back-End: Node.js, Express, MongoDB
+        <li>Front-End: Angular,TypeScript, HTML, CSS   <br>
+        <li>Back-End: Node.js, Express, MongoDB
       </ul>
       <strong>Features:</strong>
       <ul>
-        RESTful API for CRUD operations <br>
-        Responsive Design for compatibility across devices<br>
-        User Authentication and Authorization
+        <li>RESTful API for CRUD operations <br>
+        <li>Responsive Design for compatibility across devices<br>
+        <li>User Authentication and Authorization
       </ul>
 
 Check out the <a href="https://mohamedreda22.github.io/ODC-Final-project-Demo/" target="_blank" >GitHub repository</a> for more details.
@@ -97,30 +97,156 @@ Check out the <a href="https://mohamedreda22.github.io/ODC-Final-project-Demo/" 
     images: ['odc1.png', 'odc2.png', 'odc3.png','odc4.png', 'odc5.png', 'odc6.png','odc7.png', 'odc8.png','odc10.png', 'odc11.png'],
     currentImage: 'odc1.png'
   },
-  { 
-    name: 'Bistro Bliss Restaurant', 
+  {
+    name: 'Tree Artvision',
     description: `
-    Introducing Bistro Bliss, a full-stack web application designed to showcase my skills in both front-end and back-end development.<br>
-      
-    <strong>Key Technologies:</strong>
+      An artistic portfolio showcasing sketches, decorative pieces, and art workshops. Built with Angular, HTML, CSS, and TypeScript.
+      <br>
+      <br><strong>Key Technologies:</strong>
       <ul>
-        Front-End: Angular, HTML, CSS, TypeScript <br>
-        Back-End: Node.js, Express, MongoDB
+        <li>Front-End: Angular,TypeScript, HTML, CSS   <br>
       </ul>
       <strong>Features:</strong>
       <ul>
-        RESTful API for CRUD operations <br>
-        Responsive Design for compatibility across devices<br>
-        User Authentication and Authorization
+        <li>Art categories: sketches, decor, workshops</li>
+        <li>Art-related articles and customer testimonials</li>
+        <li>Smooth navigation with fixed navbar</li>
       </ul>
-
-Check out the <a href="https://mohamedreda22.github.io/ODC-Final-project-Demo/" target="_blank" >GitHub repository</a> for more details.
-    `, 
-    link:"https://github.com/mohamedreda22/ODC-Final-project-Demo",
-    date: 'SEP-2024' ,
-    images: ['odc1.png', 'odc2.png', 'odc3.png','odc4.png', 'odc5.png', 'odc6.png','odc7.png', 'odc8.png','odc10.png', 'odc11.png'],
-    currentImage: 'odc1.png'
+      Check out the <a href="https://mohamedreda22.github.io/Tree-Artvision/" target="_blank">GitHub repository</a> for more details.
+    `,
+    link: "https://github.com/mohamedreda22/Tree-Artvision",
+    date: 'SEP-2024',
+    images: ['tree1.png', 'tree2.png', 'tree3.png', 'tree4.png', 'tree5.png'],
+    currentImage: 'tree1.png'
   },
+  {
+    name: 'Rocket vs. Chickens',
+    description: `
+      An interactive game where a rocket shoots at moving chickens. Players control the rocket's movement using arrow keys and can fire bullets with the spacebar.
+       <br>
+      <br><strong>Key Technologies:</strong>
+      <ul>
+        <li>Front-End: JavaScript, HTML, CSS   <br>
+      </ul>
+      <strong>Features:</strong>
+      <ul>
+        <li>Dynamic chicken spawning in a grid layout</li>
+        <li>Smooth rocket movement across the screen</li>
+        <li>Bullet firing mechanics with collision detection</li>
+        <li>Responsive design to fit various screen sizes</li>
+      </ul>
+      Check out the <a href="https://mohamedreda22.github.io/chicken-game/" target="_blank">GitHub repository</a> for more details.
+    `,
+    link: "https://github.com/mohamedreda22/chicken-game",
+    date: 'SEP-2024',
+    images: ['chicken.png'],
+    currentImage: 'chicken.png'
+  },
+  {
+    name: 'University Newsline System (GP)',
+    description: `
+      A communication platform that streamlines information sharing within the university community. It enhances user engagement through features like news feeds, comments, and notifications.
+      <br>
+      <br><strong>Key Technologies:</strong>
+      <ul>
+        <li>Front-End: React, Axios, Express, Bootstrap, React Bootstrap   <br>
+        <li>Back-End: Java, OOP, Spring Boot, Spring Hibernate JPA, MySQL, SOLID, Clean Code, Freemarker, JWT)
+      </ul>
+      <strong>Key Features:</strong>
+      <ul>
+        <li>User registration and login</li>
+        <li>Profile management</li>
+        <li>News feed updates</li>
+        <li>Commenting and reactions</li>
+        <li>Admin controls for posts and notifications</li>
+      </ul>
+    `,
+    link: "https://drive.google.com/drive/folders/1kRsG0GzwtebfZLC5btn9DQtLFRv82gD7",
+    date: 'JAN:JUN-2024',
+    images: ['newsline1.jpg', 'newsline2.png', 'newsline3.png',
+      'newsline4.png', 'newsline5.png', 'newsline6.png', 'newsline7.png',
+      'newsline8.png', 'newsline9.png', 'newsline10.png', 'newsline11.png',
+      'newsline12.png', 'newsline13.png', 'newsline14.png', 'newsline15.png'
+    ],
+    currentImage: 'newsline1.jpg'
+  },
+  {
+    name: 'Learn2Earn Authentication System',
+    description: `
+      A user authentication system for the Learn2Earn education platform. This project allows users to register and log in securely, enabling access to educational resources.
+      <br>      
+      <br><strong>Key Technologies:</strong>
+      <ul>
+        <li>Front-End: JavaScript, HTML, CSS   <br>
+      </ul>
+      <strong>Key Features:</strong>
+      <ul>
+        <li>User registration with email and username</li>
+        <li>Secure login functionality</li>
+        <li>Password protection and user session management</li>
+        <li>Responsive design for mobile and desktop use</li>
+      </ul>
+    `,
+    link: "https://github.com/mohamedreda22/l2e-internship-authentication-task",
+    date: 'JUN-2024',
+    images: ['learntoearn1.png', 'learntoearn2.png'],
+    currentImage: 'learntoearn1.png'
+  },
+  {
+    name: 'Jungle House',
+    description: `
+      An e-commerce platform for plant enthusiasts, allowing users to browse and purchase a variety of plants. This project showcases my skills in building a responsive and user-friendly shopping experience using React.js.
+      <br>
+      <br><strong>Key Technologies:</strong>
+      <ul>
+        <li>Front-End: React.js, JavaScript, HTML, CSS</li>
+      </ul>
+      <strong>Key Features:</strong>
+      <ul>
+        <li>Dynamic display of plants with images and prices</li>
+        <li>Add to Cart functionality for easy selection of items</li>
+        <li>Responsive design for optimal viewing on mobile and desktop</li>
+        <li>Real-time cart management notifications</li>
+      </ul>
+            Check out the <a href="https://mohamedreda22.github.io/jungle-house/" target="_blank">GitHub repository</a> for more details.
+
+    `,
+    link: "https://github.com/mohamedreda22/jungle-house",
+    date: 'JUN-2023',
+    images: ['jungle1.png', 'jungle2.png','jungle3.png'],
+    currentImage: 'jungle1.png'
+  },
+  {
+    name: 'Weather App',
+    description: `
+      A simple web application that allows users to check the weather conditions for specific cities. Utilizing the OpenWeatherMap API, this app fetches and displays weather data in a user-friendly format.
+      <br>
+      <br><strong>Key Technologies:</strong>
+      <ul>
+        <li>Front-End: React.js, JavaScript, Bootstrap</li>
+        <li>API: OpenWeatherMap API</li>
+      </ul>
+      <strong>Key Features:</strong>
+      <ul>
+        <li>Search by City: Users can enter a city name to get the current weather information.</li>
+        <li>Responsive Design: Optimized for both desktop and mobile devices.</li>
+        <li>Weather Icons: Displays appropriate icons for weather conditions.</li>
+        <li>Dynamic Background Images: Changes background based on current weather conditions for enhanced user experience.</li>
+      </ul>
+            Check out the <a href="https://mohamedreda22.github.io/weather-app/" target="_blank">GitHub repository</a> for more details.
+
+    `,
+    link: "https://github.com/mohamedreda22/weather-app",
+    date: 'SEP-2023',
+    images: ['weather1.jpeg', 'weather2.jpeg'],
+    currentImage: 'weather1.jpeg'
+  }
+  
+  
+  
+  
+  
+  
 ];
 
 

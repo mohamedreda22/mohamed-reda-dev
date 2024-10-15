@@ -57,18 +57,16 @@
 <section class="projects" id="projects">
   <h1 [@slideInLeft]>My Projects</h1>
   <div class="projects-container">
-  <div class="project-item" *ngFor="let project of projects" [@fadeIn] style="scale: 0.65;">
-    <div>    
+  <div class="project-item" *ngFor="let project of projects" [@fadeIn]>
      <!-- Slideshow for multiple images -->
      <div class="slideshow-container">
-     <img [src]="project.currentImage" alt="Project image" class="slideshow-image"/>
-     </div>
+     <img [src]="project.currentImage" alt="Project image" class="slideshow-image"/></div>
+    <div class="project-info">
     <h2>{{ project.name }}</h2>
     <p [innerHTML]="project.description"></p>
     <p><strong>Date:</strong> {{ project.date }}</p>
-    <a [href]="project.link" target="_blank">View Project</a></div></div>
+    <a [href]="project.link" target="_blank">View Project</a></div></div></div>
 
-  </div>
 </section>
 
 <!-- Contact Section -->
