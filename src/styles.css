@@ -140,10 +140,12 @@ nav a {
   background-color: #0d0d0d;
   text-align: center;
 }
-.skills h1{
+
+.skills h1 {
   font-size: 40px;
   color: #ff0099;
-
+  opacity: 0;
+  animation: fadeIn 1s forwards; 
 }
 
 .skills-grid {
@@ -153,15 +155,49 @@ nav a {
   gap: 15px;
 }
 
-.skills-grid .skill-item{
+/* Animation for skill items */
+.skills-grid .skill-item {
   margin-top: 10px;
+  opacity: 0; 
+  transform: translateX(30px); 
+  animation: moveIn 0.9s forwards; 
+  animation-delay: calc((var(--item-index) + 1) * 0.2s); 
 }
+
+/* Apply the index to each skill item for staggered animation */
+.skills-grid .skill-item:nth-child(n) {
+  --item-index: calc(n - 1); 
+}
+
 .skills-grid span {
   padding: 10px 20px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 25px;
   font-size: 16px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
+
+/* Hover effect for skill items */
+.skills-grid span:hover {
+  transform: scale(1.1) translateY(5px); 
+  background-color: rgba(240, 5, 5, 0.3); 
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+  to {
+    opacity: 1; 
+  }
+}
+
+@keyframes moveIn {
+  to {
+    opacity: 1; /* Fade in to fully visible */
+    transform: translateY(0); /* Move to original position */
+  }
+}
+
+
 .education-section {
   margin: 20px;
   padding: 20px;
@@ -382,6 +418,10 @@ nav a {
 .contact {
   padding: 80px 20px;
   text-align: center;
+}
+.contact h1{
+  font-size: 40px;
+  color: #ff0099;
 }
 
 .contact form {
